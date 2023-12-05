@@ -167,4 +167,9 @@ ul li a:hover {
 }
 .first-container p {
     padding: 30px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.right a{
+    font-size: 30px;
 }
