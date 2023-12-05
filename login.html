@@ -1,0 +1,40 @@
+<!-- login.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-box">
+            <h1 id="title">Login</h1>
+            <form id="loginForm">
+                <div class="input-group">
+                    <div class="input-field">
+                        <i class="fa-solid fa-envelope"></i>
+                        <!-- <label for="name">Username:</label> -->
+                        <input type="text" name="username" id="loginname" placeholder="Username">
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-envelope"></i>
+                        <!-- <label for="password">Password:</label> -->
+                        <input type="password" name="password" id="loginpassword" placeholder="Password">
+                    </div>
+                    <div class="btn-field">
+                        <button type="button" onclick="login()">Login</button>
+                        <button type="button"><a href="signup.html">Sign up</a></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="login.js"></script>
+</body>
+
+</html>

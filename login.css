@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Serif', serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --accent-color: #e74c3c;
+    --background-color: #ecf0f1;
+    --text-color: #2c3e50;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--background-color);
+    position: relative;
+}
+
+.form-box {
+    width: 90%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #3498db;
+    padding: 30px 40px 50px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+.form-box h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    position: relative;
+    color: #ffffff;
+}
+
+.form-box h1::after {
+    content: '';
+    width: 30px;
+    height: 4px;
+    border-radius: 3px;
+    background: #ffffff;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.input-field {
+    background: #ffffff;
+    margin: 15px 0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    color: var(--text-color);
+}
+
+input::placeholder {
+    color: var(--text-color);
+}
+
+input {
+    width: 100%;
+    background-color: #ecf0f1;
+    border: 0;
+    outline: 0;
+    padding: 15px;
+    border-radius: 8px;
+    color: var(--text-color);
+}
+
+.input-field i {
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
+    max-height: 65px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+}
+
+form p {
+    text-align: left;
+    font-size: 14px;
+    color: #7f8c8d;
+    margin-top: 8px;
+}
+
+form p a {
+    text-decoration: none;
+    color: #2ecc71;
+}
+
+.btn-field {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.btn-field button {
+    flex-basis: 48%;
+    background-color: #2ecc71;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 0.5s;
+    color: #ffffff;
+}
+
+.btn-field button:hover {
+    background-color: #27ae60;
+}
+
+.btn-field button.disable {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+}
+
+.input-group {
+    height: 250px;
+}
+
+.hide {
+    display: none;
+}
+
+.tag {
+    font-size: 1.2rem;
+    color: #e74c3c;
+    margin: 10px 0;
+}
+#loginname{
+    font-size: 20px;
+}
+#loginpassword{
+    font-size: 20px;
+}
+.btn-field button{
+    font-size: 20px;
+}
+.btn-field{
+    margin-top: 50px;
+}
