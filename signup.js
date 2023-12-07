@@ -7,7 +7,7 @@ function signup() {
 
     // Make a POST request to the server for signup
     $.ajax({
-        url: "http://localhost:3000/signup",
+        url: "http://localhost:3000/register",
         method: "POST",
         contentType: "application/json",
         data: JSON.stringify({ email, password }),
@@ -22,8 +22,9 @@ function signup() {
             // Handle signup error
             if (error.status === 400) {
                 alert("Email already exists. Please use a different email.");
-            } else {
+            } else  {
                 alert("Signup failed. Please try again later.");
+                console.log("Hello");
             }
         },
     });

@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 require("dotenv").config();
-const mongoURI = process.env.MONGO_URI;
+const mongoURI = "mongodb+srv://rishivn09:Rishi1234@cluster0.ua8wzuf.mongodb.net/";
 
 const app = express();
 const port = 3000;
