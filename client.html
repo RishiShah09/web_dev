@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,10 +12,12 @@
             padding: 0;
             background: #f8f8f8;
             color: #333;
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('clientbg.jpg') center/cover no-repeat;
+
         }
 
         header {
-            background: #0101af;
+            background: transparent;
             color: #fff;
             text-align: center;
             padding-top: 30px;
@@ -25,7 +28,7 @@
         section {
             padding: 20px;
             text-align: center;
-            background: #fff;
+            background: transparent;
             margin: 20px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -47,10 +50,10 @@
         }
 
         button {
-            background: #3498db;
+            background: #33373a;
             color: #fff;
             padding: 10px 20px;
-            border: none;
+            border: 1px solid black;
             border-radius: 4px;
             cursor: pointer;
             font-size: 16px;
@@ -58,10 +61,23 @@
         }
 
         button:hover {
-            background: #2980b9;
+            background: #2eb929;
+        }
+
+        img {
+            background-color: rgba(247, 242, 242, 0.014);
+        }
+
+        p {
+            color: white;
+        }
+
+        h2 {
+            color: white;
         }
     </style>
 </head>
+
 <body>
 
     <header>
@@ -70,15 +86,17 @@
 
     <section>
         <h2>Meet Our Amazing Client</h2>
-        <img src="client.png">
+        <img src="client.png.png">
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt, turpis et scelerisque lacinia,
-            mi nisi bibendum orci, eu sodales arcu velit ac justo. Sed auctor sapien at orci convallis, a pretium justo
-            tristique. Vestibulum pharetra dolor vel augue tincidunt, nec efficitur mi laoreet.
+            "Navigate your financial journey effortlessly with our Expense Management platform. Streamline your
+            spending, track transactions, and gain insights into your financial health. Empower your financial decisions
+            with ease and take control of your expenses today."
         </p>
         <p>
-            Integer ut elit euismod, ultricies est ac, bibendum neque. Nullam nec dui eu neque sagittis auctor.
-            Vivamus lacinia erat vitae tortor tincidunt, at volutpat nulla laoreet. In hac habitasse platea dictumst.
+            Collaboration is key to success, and Kozo facilitates seamless teamwork. Whether you're
+                            working with a team in the same office or spread across the globe, our real-time
+                            collaboration features ensure everyone stays on the same page, making expense management a
+                            collaborative and efficient process.
         </p>
         <button onclick="showContactInfo()">Contact Our Client</button>
     </section>
@@ -90,4 +108,5 @@
     </script>
 
 </body>
+
 </html>

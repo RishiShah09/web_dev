@@ -7,7 +7,7 @@
 /* Navigation bar */
 
 nav {
-    background-color: #0101af;
+    background-color: #333344;
     padding: 0 30px;
     height: 60px;
     display: flex;
@@ -133,7 +133,7 @@ ul li a:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #0101af;
+    background-color: #333344;
     padding: 50px;
     color: white;
 }
@@ -154,7 +154,7 @@ ul li a:hover {
 /* first section  */
 
 .first-section {
-    background-color: #0101af;
+    background-color: #333344;
     display: flex;
     align-items: center;
     justify-content: center;

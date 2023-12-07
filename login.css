@@ -19,20 +19,23 @@ a {
 }
 
 .container {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('loginimg.jpg') center/cover no-repeat;
     width: 100%;
     height: 100vh;
     background-color: var(--background-color);
     position: relative;
 }
 
+
 .form-box {
+    
     width: 90%;
     max-width: 450px;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 60%;
     transform: translate(-50%, -50%);
-    background-color: #3498db;
+    background-color:#08080838;
     padding: 30px 40px 50px;
     text-align: center;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
@@ -40,8 +43,8 @@ a {
 }
 
 .form-box h1 {
-    font-size: 2.5rem;
-    margin-bottom: 30px;
+    font-size: 70px;
+    margin-bottom: 60px;
     position: relative;
     color: #ffffff;
 }
@@ -80,6 +83,7 @@ input {
     padding: 15px;
     border-radius: 8px;
     color: var(--text-color);
+    font-size: 20px;
 }
 
 .input-field i {
@@ -112,7 +116,7 @@ form p a {
 
 .btn-field button {
     flex-basis: 48%;
-    background-color: #2ecc71;
+    background-color: #aecaba;
     height: 40px;
     border-radius: 20px;
     border: 0;
@@ -146,8 +150,14 @@ form p a {
 }
 #loginname{
     font-size: 20px;
+    padding: 20px;
 }
+input{
+color: black;
+}
+   
 #loginpassword{
+    padding: 20px;
     font-size: 20px;
 }
 .btn-field button{
